@@ -1,0 +1,64 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    width: 300px; /* Adjust to the desired width of the popup */
+    background-color: #f8f9fa;
+}
+  
+/* Style for the list of messages */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+/* Each message item */
+li {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+  
+/* Message text */
+li p {
+    margin: 0;
+    font-size: 14px;
+    color: #333333;
+}
+  
+/* Style for the "Mark as Read" button */
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+}
+  
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+  
+/* Loading and no message text */
+div {
+    text-align: center;
+    font-size: 14px;
+    color: #888888;
+    margin-top: 20px;
+}
+  
+/* Optional: Add a slightly different background for high priority messages */
+li.high-priority {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+  
